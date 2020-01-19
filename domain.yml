@@ -1,0 +1,48 @@
+session_config:
+  session_expiration_time: 60.0
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- name
+- experience
+- askMe
+- dontknow
+- age
+- helloworld
+templates:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I could be a person with nothing to do but... I am a bot
+  utter_name:
+  - text: My creator named me... MarcoBot... I know, not a great name
+  utter_askme:
+  - text: Any questions? About me, my creator or his projects...
+  utter_dontknow:
+  - text: I don't think I know enough about him to answer that question
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_name
+- utter_askme
+- utter_dontknow
+- action_hello_world
