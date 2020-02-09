@@ -15,5 +15,11 @@ How to train?
 - Lastly, touch the train button in the menu, and move to the Models tab, where you can select the new trained model, and delete the old ones. Only delete the old ones if you are sure that the new one works better.
 
 REST API
-To talk to the bot through the REST API, which starts working whenever the RasaX has started running, just do a post request to: localhost:5005/webhooks/rest/webhook like the next image
+To talk to the bot through the REST API, which starts working whenever the RasaX has started running, just do a post request to localhost:5005/webhooks/rest/webhook where the body is:
 
+  {
+    "sender":"user",
+    "message":"how old is marc"
+  }
+
+There are also other calls to retrieve the whole conversation and other actions.
