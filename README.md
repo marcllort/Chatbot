@@ -23,3 +23,5 @@ To talk to the bot through the REST API, which starts working whenever the RasaX
   }
 
 There are also other calls to retrieve the whole conversation and other actions.
+
+To make it accessible from the internet, we can use ngrok (brew cask install ngrok) running: ngrok http 5005 once the server is started.This command, will redirect all the 5005 port traffic to a public IP adress.
