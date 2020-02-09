@@ -75,6 +75,7 @@
 ## intent:dontknow
 - yes! how old is your creator
 - how old is marc
+- how old is your creator
 
 ## intent:age
 - how old is marc?
@@ -82,3 +83,4 @@
 ## intent:helloworld
 - hello worlds
 - helloworld
+- hello world
