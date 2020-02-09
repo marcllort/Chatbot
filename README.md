@@ -14,3 +14,6 @@ How to train?
 - Stories tab is important to edit how the flow of the conversation will be, try not having different stories with the same path and  different responses, because that will make the system doubt.
 - Lastly, touch the train button in the menu, and move to the Models tab, where you can select the new trained model, and delete the old ones. Only delete the old ones if you are sure that the new one works better.
 
+REST API
+To talk to the bot through the REST API, which starts working whenever the RasaX has started running, just do a post request to: localhost:5005/webhooks/rest/webhook like the next image
+
